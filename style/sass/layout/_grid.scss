@@ -13,13 +13,14 @@
     [class^='col-'] {
         width: 100%;
         text-align: center;
-        padding: 2rem 0;
-        border-bottom: 1px solid #282828;
+        padding: 1rem 0;
+        border-bottom: 1px solid $header-font;
     }
 
     .col-1-of-4__social {
         float: left;
         width: calc((100% - 3 * 0rem) / 4); 
+        border: none;;
     }
 } 
 

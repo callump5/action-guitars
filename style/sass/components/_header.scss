@@ -1,13 +1,43 @@
 .header {
+    background-color: $header-color;
+
+    &__toggle {
+        position: absolute;
+        top: 48%;
+        transform: translateY(-50%);
+        right: 15px;
+        height: 3.5em;
+    }
     &__nav {
+        display: none;
         &--link {
             padding: 2rem 0;
+        
+            &:link, 
+            &:visited {
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 1rem 4rem;
+                color: $header-font;
+            }
+        
+            &:hover {
+                transform: translateY(-5px); 
+            }
+        
+            &:not(:last-child) {
+                margin-right: 3rem; 
+            }
         }
     }
 
     &__social {
+        padding: .7rem 0;
+        position: relative;
+        border-bottom: 1px solid #282828;
         &--link > img {
-            height: 2rem;
+            height: 4rem;
             
         }
     }

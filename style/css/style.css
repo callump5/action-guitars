@@ -14,10 +14,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background-color: #282828; }
 
 body {
   box-sizing: border-box; }
@@ -26,13 +28,55 @@ section {
   padding: 6rem 0; }
 
 .header__nav--link {
-  font-size: 1.6rem; }
+  font-size: 1.4rem;
+  font-weight: 600; }
 
-.header__nav--link {
-  padding: 2rem 0; }
+.u-container {
+  width: 90%;
+  margin: 0 auto; }
 
-.header__social--link > img {
-  height: 2rem; }
+.u-nav-container {
+  width: 65%;
+  margin: 0 auto; }
+  .u-nav-container::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+@media screen and (min-width: 1000px) {
+  .u-container {
+    width: 800px; }
+  .u-nav-container {
+    width: 40%; } }
+
+.header {
+  background-color: white; }
+  .header__toggle {
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    right: 15px;
+    height: 3.5em; }
+  .header__nav {
+    display: none; }
+    .header__nav--link {
+      padding: 2rem 0; }
+      .header__nav--link:link, .header__nav--link:visited {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem 4rem;
+        color: #282828; }
+      .header__nav--link:hover {
+        transform: translateY(-5px); }
+      .header__nav--link:not(:last-child) {
+        margin-right: 3rem; }
+  .header__social {
+    padding: .7rem 0;
+    position: relative;
+    border-bottom: 1px solid #282828; }
+    .header__social--link > img {
+      height: 4rem; }
 
 .row {
   max-width: 114rem;
@@ -44,11 +88,12 @@ section {
   .row [class^='col-'] {
     width: 100%;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-bottom: 1px solid #282828; }
   .row .col-1-of-4__social {
     float: left;
-    width: calc((100% - 3 * 0rem) / 4); }
+    width: calc((100% - 3 * 0rem) / 4);
+    border: none; }
 
 @media screen and (min-width: 1000px) {
   .row [class^='col-'] {
