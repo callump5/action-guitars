@@ -1,0 +1,14 @@
+.header {
+    &__nav {
+        &--link {
+            padding: 2rem 0;
+        }
+    }
+
+    &__social {
+        &--link > img {
+            height: 2rem;
+            
+        }
+    }
+}

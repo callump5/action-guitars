@@ -1,0 +1,31 @@
+/* 
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+
+*/
+
+/* Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    box-sizing: border-box; 
+}
+
+section {
+    padding: $section-padding 0; 
+}
