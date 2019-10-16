@@ -10,10 +10,7 @@
         
     </title>
 
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Quicksand&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Comfortaa|Lato:100,300,400|Lobster|Righteous" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Akronim|Lobster|Stylish" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Quicksand:400,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style/css/style.css">
     <link rel="shortcut icon" href="/static/favicon-32.png"/>
@@ -27,607 +24,349 @@
         
 
     <header class="header">
-        <div class="row header__social">
-            <div class="u-nav-container">    
-                <div class="col-1-of-4__social"><a class="header__social--link" href="https://www.facebook.com/ActionGuitarsEssex"><img alt="Fb Icon"  src="/style/icons/fb-icon-black.png"></a></div>
-                <div class="col-1-of-4__social"><a class="header__social--link" href="mailto:essexactionguitars@gmail.com"><img alt="Email Icon" src="/style/icons/email-icon-black.png"></a></div>
-                <div class="col-1-of-4__social"><a class="header__social--link" href="tel:07802805907"><img alt="Phone Icon" src="/style/icons/phone-icon-black.png"></a></div>
-                <div class="col-1-of-4__social"><a class="header__social--link" href="https://www.youtube.com"><img alt="Youtube Icon"  src="/style/icons/youtube-icon-black.png"></a></div>
+        <h1 class="header__logo">Action Guitars</h1>
+        <div class="u-no-margin row header__nav">
+            <div class="u-nav-container">
+                <div class="col-1-of-6"><a href="/" class="header__nav--link">Home</a></div>
+                <div class="col-1-of-6"><a href="/#services" class="header__nav--link">Services</a></div>
+                <div class="col-1-of-6"><a href="/#testimonials" class="header__nav--link">Testimonials</a></div>
+                <div class="col-1-of-6"><a href="/project-gallery" class="header__nav--link">Projects</a></div>
+                <div class="col-1-of-6"><a href="/#about" class="header__nav--link">About</a></div>
+                <div class="col-1-of-6"><a href="/#contact" class="header__nav--link">Contact</a></div>
             </div>
+        </div>
+        <div class="row header__social">
+            <div class="u-social-container">    
+                <div class="col-1-of-4__social"><a class="header__social--link" href="tel:07802805907"><img alt="Phone Icon" src="/style/icons/phone-icon-black.png"></a></div>
+                <div class="col-1-of-4__social"><a class="header__social--link" href="https://www.facebook.com/ActionGuitarsEssex"><img alt="Fb Icon"  src="/style/icons/fb-icon-black.png"></a></div>
+                <div class="col-1-of-4__social"><a class="header__social--link" href="https://www.youtube.com"><img alt="Youtube Icon"  src="/style/icons/youtube-icon-black.png"></a></div>
+                <div class="col-1-of-4__social"><a class="header__social--link" href="mailto:essexactionguitars@gmail.com"><img alt="Email Icon" src="/style/icons/email-icon-black.png"></a></div>
+                </div>
             <img alt="Menu Toggle" class="header__toggle" src="/style/icons/toggle-black.png">
         </div> 
-        <div class="row header__nav">
-            <div class="col-1-of-6"><a href="/" class="header__nav--link">Home</a></div>
-            <div class="col-1-of-6"><a href="/#services" class="header__nav--link">Services</a></div>
-            <div class="col-1-of-6"><a href="/#testimonials" class="header__nav--link">Testimonials</a></div>
-            <div class="col-1-of-6"><a href="/project-gallery" class="header__nav--link">Projects</a></div>
-            <div class="col-1-of-6"><a href="/#about" class="header__nav--link">About</a></div>
-            <div class="col-1-of-6"><a href="/#contact" class="header__nav--link">Contact</a></div>
-        </div>
-
-        <script type="text/javascript">
-            $('.header__toggle').on('click', function () {
-                $('.header__nav').toggle('fast')
-            })
-        </script>
     </header>
 
+    <section class="landing" title="Guitar Background">
+        <div class="landing__text u-container u-text-centre">
+            <img class="landing__logo" src="/static/guitar-logo-1.png" alt="Action Guitars Logo">
+            <p class="paragraph u-margin-medium">For more than 15 years now I have been repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly care about the quality of a service they are providing. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally</p>
+            <a class="button--primary" href="#contact">Contact Us!</a>
+        </div>
+    </section>
 
+    <div class="u-container">
+        <section id="services" class="services"> 
 
-
-    
-
-    <section id="landing" title="Guitar Background">
-    <div id="landing-text" class="container">
-
-        <img id="logo" src="/static/guitar-logo-1.png">
-        <p>For more than 15 years now I have been repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly care about the quality of a service they are providing. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally</p>
-        <a id="contacy-btn" class="link-white" href="#contact">Contact Us!</a>
-    </div>
-</section>
-
-
-
-    <div class="container">
-        
-
-        <section id="services">
-
-    <h1 class="title">Services</h1>
-
-    <div class="services-list">
-        
-            <div class="service link">
-            <a class="link" href="/services/restringing/">
-
-                <div class="service-img" title="Restringing" style="background-image: url( https://action-guitar.s3.amazonaws.com/restring.jpg )">
-                </div>
-                <h2>Restringing</h2>
-            </a>
-            </div>
-        
-            <div class="service link">
-            <a class="link" href="/services/instrument-rejuvenation/">
-
-                <div class="service-img" title="Instrument Rejuvenation" style="background-image: url( https://action-guitar.s3.amazonaws.com/rejuv.jpg )">
-                </div>
-                <h2>Instrument Rejuvenation</h2>
-            </a>
-            </div>
-        
-            <div class="service link">
-            <a class="link" href="/services/full-guitar-service/">
-
-                <div class="service-img" title="Full Guitar Service" style="background-image: url( https://action-guitar.s3.amazonaws.com/service.jpg )">
-                </div>
-                <h2>Full Guitar Service</h2>
-            </a>
-            </div>
-        
-            <div class="service link">
-            <a class="link" href="/services/pickup-installation/">
-
-                <div class="service-img" title="Pickup Installation" style="background-image: url( https://action-guitar.s3.amazonaws.com/pickup.jpg )">
-                </div>
-                <h2>Pickup Installation</h2>
-            </a>
-            </div>
-        
-            <div class="service link">
-            <a class="link" href="/services/refretting/">
-
-                <div class="service-img" title="Refretting" style="background-image: url( https://action-guitar.s3.amazonaws.com/Guitar_fretboard_closeup.jpg )">
-                </div>
-                <h2>Refretting</h2>
-            </a>
-            </div>
-        
-            <div class="service link">
-            <a class="link" href="/services/amp-repair/">
-
-                <div class="service-img" title="Amp Repair" style="background-image: url( https://action-guitar.s3.amazonaws.com/amp-amplifier-brand-164903.jpg )">
-                </div>
-                <h2>Amp Repair</h2>
-            </a>
-            </div>
-        
-            <div class="service link">
-            <a class="link" href="/services/other-information/">
-
-                <div class="service-img" title="Other Information" style="background-image: url( https://action-guitar.s3.amazonaws.com/and.jpg )">
-                </div>
-                <h2>Other Information</h2>
-            </a>
-            </div>
-        
-    </div>
-</section>
-
-
-
-
-
-
-        <section id="services">
-
-    <h1 class="title">Price List</h1>
-
-    <div class="price-list">
-        
-            <div class="price-cate">
-                <h2 class="cate-title">Restringing</h2>
-
-                
-                    
-                        <div class="price-item">
-                            <p>Guitar Restringing</p>
-                            <p>15.00</p>
-                        </div>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </div>
-        
-            <div class="price-cate">
-                <h2 class="cate-title">Instrument Rejuvenation</h2>
-
-                
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Neck Breaks (POA)</p>
-                            <p>50.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Nut Fitting</p>
-                            <p>30.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Saddle Fitting</p>
-                            <p>30.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Switch Replacement</p>
-                            <p>20.00</p>
-                        </div>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Broken Neck Repair</p>
-                            <p>0.00</p>
-                        </div>
-                    
-                
-            </div>
-        
-            <div class="price-cate">
-                <h2 class="cate-title">Full Guitar Service</h2>
-
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Acoustic Guitar Setup</p>
-                            <p>35.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Bass Guitar Setup</p>
-                            <p>35.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Electric Guitar Setup</p>
-                            <p>35.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Setup (Floyd Rose + Bigsby style trems)</p>
-                            <p>45.00</p>
-                        </div>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </div>
-        
-            <div class="price-cate">
-                <h2 class="cate-title">Pickup Installation</h2>
-
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Pickup installation with full setup included</p>
-                            <p>60.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Pickup fitting</p>
-                            <p>40.00</p>
-                        </div>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </div>
-        
-            <div class="price-cate">
-                <h2 class="cate-title">Refretting</h2>
-
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Guitar Refretting</p>
-                            <p>150.00</p>
-                        </div>
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Fret level dress and recrown</p>
-                            <p>70.00</p>
-                        </div>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </div>
-        
-            <div class="price-cate">
-                <h2 class="cate-title">Amp Repair</h2>
-
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>Guitar &amp; Bass Amp Repair</p>
-                            <p>0.00</p>
-                        </div>
-                    
-                
-                    
-                
-            </div>
-        
-            <div class="price-cate">
-                <h2 class="cate-title">Other Information</h2>
-
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <div class="price-item">
-                            <p>All Service advertised on this website are minus the cost of parts and strings. These are additional costs on top of the service prices. Please call for quotations!</p>
-                            <p>0.00</p>
-                        </div>
-                    
-                
-                    
-                
-                    
-                
-            </div>
-        
-    </div>
-</section>
-
-        <section id="testimonials">
-
-    <h1 class="title">Testimonials</h1>
-
-    <div class="testimonial-list">
-        
-            <div class="testimonials">
-                <p>Just got my Ibanez workhorse back from full setup with Andy. All frets level, all chokes gone, playing fast and all notes clean. Thanks Andy for top service</p>
-                <h2 class="client">- Scott Akister</h2>
-                <h2 class="location">- Essex - Leigh-on-sea</h2>
-            </div>
-        
-            <div class="testimonials">
-                <p>Great job repairing Jimmie Vaughan strat mate. Thanks very much and all the best.</p>
-                <h2 class="client">- Andy Stevens</h2>
-                <h2 class="location">- Essex - Leigh-on-sea</h2>
-            </div>
-        
-            <div class="testimonials">
-                <p>Thought my little Vox bass amp was done for! Thanks to andy for the repair! =)</p>
-                <h2 class="client">- Jack Springham</h2>
-                <h2 class="location">- Essex - Southend</h2>
-            </div>
-        
-            <div class="testimonials">
-                <p>Andy performed 2 full set ups for me and repaired a broken guitar neck for me, in the setup it also included a complete re-fret on one of them. Absolute beast, I&#39;d say he&#39;s the best in Essex, never had any issue with his service!</p>
-                <h2 class="client">- Josh Baker</h2>
-                <h2 class="location">- Essex - Southend</h2>
-            </div>
-        
-    </div>
-
-</section>
-
-    
-    </div>
-
-
-    <section id="img-break">
-     <div id="img-break-text" class="container">
-
-
-        <img id="logo" src="/static/guitar-logo-1.png" alt="Action Guitars Logo">
-
-                <p>Click the button below to get in contact about any repair needs you have</p>
-        <a id="contacy-btn" class="link-white" href="#contact">Contact Us!</a>
-    </div>
-</section>
-
-
-
-    <div class="container">
-
-        <section id="about">
-
-<h1 class="title">About</h1>
-    
-        <p>Based in Leigh-on-Sea, Essex, I&#39;ve spent 15 years repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly cares about the quality of service they provide. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally. 
-
-Services:
-Bass guitar setup - Bass guitar repair - Acoustic guitar repair - Guitar repair -  Cracked headstock repair - Broken guitar head repair - Machine head replacement - Guitar knob replacement  - Selector switch replacement - Pickup selector replacement - Guitar intonation - Intonation - Strap buttons  - String tree fitting - Stringing service  - Block replacement  - Strat block replacement  - Amp repair - Restringing
-
-Serving Areas:
-Southend - Rayeligh - Leigh on sea - Basildon - Canvey Island - Hockely - Essex</p>
-    
-
-
-</section>
-        
-<section id="contact">
-
-    <h1 class="title">Contact</h1>
-
-
-    <div id="contact_info">
-        <p>Andy Fieldwick</p>
-        <p>07802805907</p>
-        <p id="email-contact">essexactionguitars@gmail.com</p>
-    </div>
-
-
-    <div id="call-form" class="page">
-        <div>
-            <form method="post">
+            <h1 class="heading-primary u-margin-big">Services</h1>
+            
+            <div class="services-list">
                 <div class="row">
-                    <input type='hidden' name='csrfmiddlewaretoken' value='i9DSqJA7BXsMq4iwusIyDBxyymZ6AnCkCaEFvOer9DyQRFoqTcBE73a5Nel7t2i1' />
-                    
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                                <a class="service-list__card--link" href="/services/restringing/">
+                
+                                <div class="service-list__card--image" title="Restringing" style="background-image: url( '/style/images/services/restring.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Restringing</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/instrument-rejuvenation/">
+                
+                                <div class="service-list__card--image" title="Instrument Rejuvenation" style="background-image: url( '/style/images/services/rejuv.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Rejuvenation</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/full-guitar-service/">
+                
+                                <div class="service-list__card--image"  title="Full Guitar Service" style="background-image: url( '/style/images/services/service.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Full Guitar Service</h2>
+                            </a>
+                        </div>
+                    </div>
 
-<div id="div_id_name" class="control-group"> <label for="id_name" class="control-label requiredField">
-                Name<span class="asteriskField">*</span> </label> <div class="controls"> <input type="text" name="name" id="id_name" required class="textinput textInput" maxlength="100" /> </div> </div> <div id="div_id_number" class="control-group"> <label for="id_number" class="control-label requiredField">
-                Number<span class="asteriskField">*</span> </label> <div class="controls"> <input type="text" name="number" id="id_number" required class="textinput textInput" maxlength="100" /> </div> </div> <div id="div_id_email" class="control-group"> <label for="id_email" class="control-label requiredField">
-                Email<span class="asteriskField">*</span> </label> <div class="controls"> <input type="email" name="email" id="id_email" required class="emailinput" maxlength="254" /> </div> </div> <div id="div_id_description" class="control-group"> <label for="id_description" class="control-label requiredField">
-                Description<span class="asteriskField">*</span> </label> <div class="controls"> <textarea name="description" cols="40" rows="10" class="textarea" required id="id_description">
-</textarea> </div> </div>
-
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/pickup-installation/">
+                
+                                <div class="service-list__card--image"  title="Pickup Installation" style="background-image: url( '/style/images/services/pickup.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Pickup Installation</h2>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <input id="contactform-submit" type="submit" value="Submit">
-            </form>
+
+                <div class="row u-min-width">
+
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/refretting/">
+                
+                                <div class="service-list__card--image"  title="Refretting" style="background-image: url( '/style/images/services/Guitar_fretboard_closeup.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Refretting</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                            <div class="service-list__card">
+                                <a class="link" href="/services/amp-repair/">
+                    
+                                    <div class="service-list__card--image"  title="Amp Repair" style="background-image: url( '/style/images/services/amp-amplifier-brand-164903.jpg' )">
+                                    </div>
+                                    <h2 class="service-list__card--title">Amp Repair</h2>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/other-information/">
+                
+                                <div class="service-list__card--image"  title="Other Information" style="background-image: url( '/style/images/services/and.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Other Information</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <div class="u-offset-background u-border-top">
+        <div class="u-container">
+
+            <section class="price-list">
+                <h1 class="heading-primary u-margin-big">Price List</h1>
+
+                <div class="price-list__category">
+                
+                    <h2 class="price-list__category--title">Restringing</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Guitar Restringing</h2>
+                        <p class="price-list__service--price">£15.00</p>
+                    </div>
+                </div>
+
+
+                <div class="price-list__category">
+
+                    <h2 class="price-list__category--title">Instrument Rejuvenation</h2>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Neck Breaks (POA)</h2>
+                        <p class="price-list__service--price">£50.00</p>
+                    </div>
+                    
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Saddle Fitting</h2>
+                        <p class="price-list__service--price">£30.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Nut Fitting</h2>
+                        <p class="price-list__service--price">£30.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Switch Replacement</h2>
+                        <p class="price-list__service--price">£20.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Broken Neck Repair</h2>
+                    </div>
+                </div>
+
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Full Guitar Service</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Acoustic Guitar Setup</h2>
+                        <p class="price-list__service--price">£35.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Bass Gitar Setup</h2>
+                        <p class="price-list__service--price">£35.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Electric Guitar Setup</h2>
+                        <p class="price-list__service--price">£35.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Setup (Floyd Rose + Bigsby style trems)</h2>
+                        <p class="price-list__service--price">£45.00</p>
+                    </div>
+                </div>
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Pickup Installation</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Pickup installation with full setup included</h2>
+                        <p class="price-list__service--price">£60.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Pickup Fitting</h2>
+                        <p class="price-list__service--price">£40.00</p>
+                    </div>
+                
+                </div>
+
+                <div class="price-list__category">
+                        <h2 class="price-list__category--title">Refretting</h2>
+                
+                        <div class="price-list__service">
+                            <h2 class="price-list__service--title">Guitar Refretting</h2>
+                            <p class="price-list__service--price">£150.00</p>
+                        </div>
+            
+                        <div class="price-list__service">
+                            <h2 class="price-list__service--title">Fret level dress and recrown</h2>
+                            <p class="price-list__service--price">£70.00</p>
+                        </div>
+                </div>
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Amp Repair</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Guitar & Bass Amp Repair</h2>
+                    </div>
+                </div>
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Other Information</h2>
+            
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">All Service advertised on this website are minus the cost of parts and strings. These are additional costs on top of the service prices. Please call for quotations!</h2>
+                        
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 
-    <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19842.687274221313!2d0.6252344026941561!3d51.56207530708491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8dbc9348e19d9%3A0x3b23c8ce5e6e46cf!2sThe+Fairway%2C+Southend-on-Sea%2C+Leigh-on-Sea!5e0!3m2!1sen!2suk!4v1557477503358!5m2!1sen!2suk" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="u-border-top">
+        <div class="u-container">
+            <section id="testimonials" class="testimonials">
+                <h1 class="heading-primary u-margin-big">Testimonials</h1>
+            
+                <div class="testimonials-list">
+                    
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Just got my Ibanez workhorse back from full setup with Andy. All frets level, all chokes gone, playing fast and all notes clean. Thanks Andy for top service</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Scott Akister</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Leigh-on-sea</h2>        
+                        </div>
+                    </div>
+                
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Great job repairing Jimmie Vaughan strat mate. Thanks very much and all the best.</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Andy Stevens</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Leigh-on-sea</h2>        
+                        </div>
+                    </div>
+                
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Thought my little Vox bass amp was done for! Thanks to Andy for the repair!</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Jack Springham</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Leigh-on-sea</h2>        
+                        </div>
+                    </div>
+            
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Andy performed 2 full set ups for me and repaired a broken guitar neck for me, in the setup it also included a complete re-fret on one of them. Absolute beast, I'd say he's the best in Essex, never had any issue with his service!</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Josh Baker</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Southend</h2>        
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            
+            </section>
+        </div>
     </div>
 
-    <script>
-        $('#id_name').addClass('form-control');
-        $('#id_number').addClass('form-control');
-        $('#id_email').addClass('form-control');
-        $('#id_description').addClass('form-control').css('height', '200px');
+    <section class="landing u-border-top" title="Guitar Background">
+        <div class="landing__text u-container u-text-centre">
+            <img class="landing__logo" src="/static/guitar-logo-1.png" alt="Action Guitars Logo">
+            <p class="paragraph u-margin-medium">For more than 15 years now I have been repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly care about the quality of a service they are providing. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally</p>
+            <a class="button--primary" href="#contact">Contact Us!</a>
+        </div>
+    </section>
 
-        $('#div_id_name').addClass('wrap-1');
-        $('#div_id_number').addClass('wrap-1');
-        $('#div_id_email').addClass('wrap-1');
-        $('#contactform-submit').addClass('wrap-1');
-        $('#div_id_description').addClass('wrap-2');
+    <section class="about u-container">
 
-        $('.wrap-1').wrapAll('<div class=col-1>');
-        $('.wrap-2').wrapAll('<div class=col-1>');
-        $('.wrap-3').wrapAll('<div class=col-2>');
-  </script>
-</section>
+        <h1 class="heading-primary u-margin-big">About</h1>
+                
+        <p class="paragraph u-margin-big">Based in Leigh-on-Sea, Essex, I&#39;ve spent 15 years repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly cares about the quality of service they provide. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally.</p>
+            
+        <h2 class="heading-secondary u-margin-medium">Services</h2>
+        <p class="paragraph u-margin-big">Bass guitar setup - Bass guitar repair - Acoustic guitar repair - Guitar repair -  Cracked headstock repair - Broken guitar head repair - Machine head replacement - Guitar knob replacement  - Selector switch replacement - Pickup selector replacement - Guitar intonation - Intonation - Strap buttons  - String tree fitting - Stringing service  - Block replacement  - Strat block replacement  - Amp repair - Restringing</p>
+        
+        <h2 class="heading-secondary u-margin-medium">Serving Areas</h2>
+        <p class="paragraph">Southend - Rayeligh - Leigh on sea - Basildon - Canvey Island - Hockely - Essex</p>
+                 
+    </section>
+                    
 
-    </div>
 
+    <div class="u-color-contact">
+            <div class="u-container">
+                <section class="section-contact">
+                        <h2 class="heading-secondary u-margin-medium u-text-left">Get A Quote</h2>
+                        <form class="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdc--M85hHDQMLd1TZPkVWjRctR82ORPcXumzJ88jddf020fw/formResponse?embedded=true">
+                            <div class="row">
+                                <div class="col-1-of-2">
+                                    <input name="entry.2005620554" placeholder="Name" class="contact-form__input">
+                                </div>
+                                <div class="col-1-of-2">
+                                    <input name="emailAddress" placeholder="Email Address" class="contact-form__input">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1-of-2">
+                                        <input name="entry.1166974658" placeholder="Phone Number" class="contact-form__input">
+                                </div>
+                                <div class="col-1-of-2">
+                                        <input name="entry.578047683" placeholder="Service" class="contact-form__input">
+                                </div>
+                            </div>
+                                <input name="entry.2079064863" placeholder="Location" class="contact-form__input">
+
+                                <input name="entry.839337160" placeholder="Message" class="contact-form__input contact-form__input--message u-margin-">
+
+                                <button class="button__submit" type="submit">Get A Quote</button>
+                        </form>
+                </section>
+
+                <iframe class="section-contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19842.687274221313!2d0.6252344026941561!3d51.56207530708491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8dbc9348e19d9%3A0x3b23c8ce5e6e46cf!2sThe+Fairway%2C+Southend-on-Sea%2C+Leigh-on-Sea!5e0!3m2!1sen!2suk!4v1557477503358!5m2!1sen!2suk" frameborder="0" style="border:0" allowfullscreen></iframe>
+                
+            </div>
+        </div>
 
     <footer>
     <div class="container">
@@ -652,6 +391,12 @@ Southend - Rayeligh - Leigh on sea - Basildon - Canvey Island - Hockely - Essex<
         
         
         
+
+<script type="text/javascript">
+    $('.header__toggle').on('click', function () {
+        $('.header__nav').toggle('fast')
+    })
+</script>
 
     </body>
 

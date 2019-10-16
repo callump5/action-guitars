@@ -1,6 +1,18 @@
 .header {
     background-color: $header-color;
 
+    &__logo {
+        color: $header-font;
+
+
+        font-family: 'Lobster', cursive;
+        font-size: 5rem;
+        padding: 1rem 0 .5rem 0;
+        text-align: center;
+
+
+    }
+
     &__toggle {
         position: absolute;
         top: 48%;
@@ -11,19 +23,18 @@
     &__nav {
         display: none;
         &--link {
-            padding: 2rem 0;
-        
             &:link, 
             &:visited {
+                padding: 2rem 0;
                 display: inline-block;
                 text-decoration: none;
                 text-transform: uppercase;
                 padding: 1rem 4rem;
                 color: $header-font;
+                transition: all .2s;
             }
         
             &:hover {
-                transform: translateY(-5px); 
             }
         
             &:not(:last-child) {
@@ -33,12 +44,58 @@
     }
 
     &__social {
-        padding: .7rem 0;
+        padding: 1rem 0 .7rem 0;
         position: relative;
         border-bottom: 1px solid #282828;
         &--link > img {
-            height: 4rem;
+            height: 2rem;
             
+        }
+    }
+}
+
+@media screen and (min-width:1000px){
+    .header {
+
+        &__logo {
+            font-size: 7rem;
+        }
+
+        &__toggle {
+            display: none;
+        }
+
+        &__social {
+            padding: 0;
+
+            &--link > img {
+                transition: all .2s;
+                margin-top: .3rem;
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+
+        &__nav {
+            display: block;
+            border-bottom: 3px solid $header-font;
+
+            &--link {
+            
+                &:link, 
+                &:visited {
+                }
+            
+                &:hover {
+                    transform: translateY(-5px) scale(1.3);
+                }
+            
+                &:not(:last-child) {
+                    margin-right: 3rem; 
+                }
+            }
         }
     }
 }

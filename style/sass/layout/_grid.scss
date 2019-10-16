@@ -1,8 +1,9 @@
 .row {
-    max-width: 114rem;
     margin: 0 auto; 
     
-    &:not(:last-child) {}
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
     
     &::after {
         content: '';
@@ -20,7 +21,8 @@
     .col-1-of-4__social {
         float: left;
         width: calc((100% - 3 * 0rem) / 4); 
-        border: none;;
+        border: none;
+        
     }
 } 
 
@@ -32,6 +34,7 @@
         [class^='col-'] {
             float: left; 
             width: unset;
+            border: none;
             
         
             
