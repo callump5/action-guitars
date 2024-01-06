@@ -368,7 +368,7 @@ input::placeholder {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); } }
 
 .landing {
-  background: linear-gradient(to left, rgba(5, 1, 1, 0.7), rgba(0, 0, 0, 0.7)), url("/static/static/4k-wallpaper-blur-close-up-1266821.jpg");
+  background: linear-gradient(to left, rgba(5, 1, 1, 0.7), rgba(0, 0, 0, 0.7)), url("/static/4k-wallpaper-blur-close-up-1266821.jpg");
   background-size: cover;
   border-bottom: 2px solid #eaeaea; }
   .landing__logo {
