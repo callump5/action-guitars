@@ -1,89 +1,405 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+<head>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.7.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <meta charset="UTF-8">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    <title>Action Guitars Essex
+        
+        
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Quicksand:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="shortcut icon" href="/static/favicon-32.png"/>
+
+    <script src="/style/js/jquery.js"></script>
+
+</head>
+
+    <body>
+
+        
+    <div class="details">
+        <div class="u-container">
+                <p class="details--email">essexactionguitars@gmail.com</p>
+
+        </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <header class="header">
+        <h1 class="header__logo">Action Guitars</h1>
+        <div class="u-no-margin row header__nav">
+            <div class="u-nav-container">
+                <div class="col-1-of-6"><a href="/" class="header__nav--link">Home</a></div>
+                <div class="col-1-of-6"><a href="/#services" class="header__nav--link">Services</a></div>
+                <div class="col-1-of-6"><a href="/#testimonials" class="header__nav--link">Testimonials</a></div>
+                <div class="col-1-of-6"><a href="/project-gallery" class="header__nav--link">Projects</a></div>
+                <div class="col-1-of-6"><a href="/#about" class="header__nav--link">About</a></div>
+                <div class="col-1-of-6"><a href="/#contact" class="header__nav--link">Contact</a></div>
+            </div>
+        </div>
+        <div class="row header__social">
+            <div class="u-social-container">    
+                <div class="col-1-of-4__social"><a class="header__social--link" href="tel:07802805907"><img alt="Phone Icon" src="/style/icons/phone-icon-black.png"></a></div>
+                <div class="col-1-of-4__social"><a class="header__social--link" href="https://www.facebook.com/ActionGuitarsEssex"><img alt="Fb Icon"  src="/style/icons/fb-icon-black.png"></a></div>
+                <div class="col-1-of-4__social"><a class="header__social--link" href="https://www.youtube.com"><img alt="Youtube Icon"  src="/style/icons/youtube-icon-black.png"></a></div>
+                <div class="col-1-of-4__social"><a class="header__social--link" href="mailto:essexactionguitars@gmail.com"><img alt="Email Icon" src="/style/icons/email-icon-black.png"></a></div>
+                </div>
+            <img alt="Menu Toggle" class="header__toggle" src="/style/icons/toggle-black.png">
+        </div> 
+    </header>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <section class="landing" title="Guitar Background">
+        <div class="landing__text u-container u-text-centre">
+            <img class="landing__logo" src="/static/guitar-logo-1.png" alt="Action Guitars Logo">
+            <p class="paragraph u-margin-medium">For more than 15 years now I have been repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly care about the quality of a service they are providing. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally</p>
+            <a class="button--primary" href="#contact">Contact Us!</a>
+        </div>
+    </section>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    <div class="u-container">
+        <section id="services" class="services"> 
+
+            <h1 class="heading-primary u-margin-big">Services</h1>
+            
+            <div class="services-list">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                                <a class="service-list__card--link" href="/services/restringing/">
+                
+                                <div class="service-list__card--image" title="Restringing" style="background-image: url( '/style/images/services/restring.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Restringing</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/instrument-rejuvenation/">
+                
+                                <div class="service-list__card--image" title="Instrument Rejuvenation" style="background-image: url( '/style/images/services/rejuv.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Rejuvenation</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/full-guitar-service/">
+                
+                                <div class="service-list__card--image"  title="Full Guitar Service" style="background-image: url( '/style/images/services/service.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Full Guitar Service</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/pickup-installation/">
+                
+                                <div class="service-list__card--image"  title="Pickup Installation" style="background-image: url( '/style/images/services/pickup.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Pickup Installation</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row u-min-width">
+
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/refretting/">
+                
+                                <div class="service-list__card--image"  title="Refretting" style="background-image: url( '/style/images/services/Guitar_fretboard_closeup.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Refretting</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                            <div class="service-list__card">
+                                <a class="link" href="/services/amp-repair/">
+                    
+                                    <div class="service-list__card--image"  title="Amp Repair" style="background-image: url( '/style/images/services/amp-amplifier-brand-164903.jpg' )">
+                                    </div>
+                                    <h2 class="service-list__card--title">Amp Repair</h2>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="service-list__card">
+                            <a class="link" href="/services/other-information/">
+                
+                                <div class="service-list__card--image"  title="Other Information" style="background-image: url( '/style/images/services/and.jpg' )">
+                                </div>
+                                <h2 class="service-list__card--title">Other Information</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <div class="u-offset-background u-border-top">
+        <div class="u-container">
+
+            <section class="price-list">
+                <h1 class="heading-primary u-margin-big">Price List</h1>
+
+                <div class="price-list__category">
+                
+                    <h2 class="price-list__category--title">Restringing</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Guitar Restringing</h2>
+                        <p class="price-list__service--price">£15.00</p>
+                    </div>
+                </div>
+
+
+                <div class="price-list__category">
+
+                    <h2 class="price-list__category--title">Instrument Rejuvenation</h2>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Neck Breaks (POA)</h2>
+                        <p class="price-list__service--price">£50.00</p>
+                    </div>
+                    
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Saddle Fitting</h2>
+                        <p class="price-list__service--price">£30.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Nut Fitting</h2>
+                        <p class="price-list__service--price">£30.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Switch Replacement</h2>
+                        <p class="price-list__service--price">£20.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Broken Neck Repair</h2>
+                    </div>
+                </div>
+
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Full Guitar Service</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Acoustic Guitar Setup</h2>
+                        <p class="price-list__service--price">£35.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Bass Gitar Setup</h2>
+                        <p class="price-list__service--price">£35.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Electric Guitar Setup</h2>
+                        <p class="price-list__service--price">£35.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Setup (Floyd Rose + Bigsby style trems)</h2>
+                        <p class="price-list__service--price">£45.00</p>
+                    </div>
+                </div>
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Pickup Installation</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Pickup installation with full setup included</h2>
+                        <p class="price-list__service--price">£60.00</p>
+                    </div>
+
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Pickup Fitting</h2>
+                        <p class="price-list__service--price">£40.00</p>
+                    </div>
+                
+                </div>
+
+                <div class="price-list__category">
+                        <h2 class="price-list__category--title">Refretting</h2>
+                
+                        <div class="price-list__service">
+                            <h2 class="price-list__service--title">Guitar Refretting</h2>
+                            <p class="price-list__service--price">£150.00</p>
+                        </div>
+            
+                        <div class="price-list__service">
+                            <h2 class="price-list__service--title">Fret level dress and recrown</h2>
+                            <p class="price-list__service--price">£70.00</p>
+                        </div>
+                </div>
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Amp Repair</h2>
+                
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">Guitar & Bass Amp Repair</h2>
+                    </div>
+                </div>
+
+                <div class="price-list__category">
+                    <h2 class="price-list__category--title">Other Information</h2>
+            
+                    <div class="price-list__service">
+                        <h2 class="price-list__service--title">All Service advertised on this website are minus the cost of parts and strings. These are additional costs on top of the service prices. Please call for quotations!</h2>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="u-border-top">
+        <div class="u-container">
+            <section id="testimonials" class="testimonials">
+                <h1 class="heading-primary u-margin-big">Testimonials</h1>
+            
+                <div class="testimonials-list">
+                    
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Just got my Ibanez workhorse back from full setup with Andy. All frets level, all chokes gone, playing fast and all notes clean. Thanks Andy for top service</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Scott Akister</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Leigh-on-sea</h2>        
+                        </div>
+                    </div>
+                
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Great job repairing Jimmie Vaughan strat mate. Thanks very much and all the best.</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Andy Stevens</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Leigh-on-sea</h2>        
+                        </div>
+                    </div>
+                
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Thought my little Vox bass amp was done for! Thanks to Andy for the repair!</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Jack Springham</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Leigh-on-sea</h2>        
+                        </div>
+                    </div>
+            
+                    <div class="review-list__testimonial">
+                        <p class="paragraph u-text-left u-margin-small">Andy performed 2 full set ups for me and repaired a broken guitar neck for me, in the setup it also included a complete re-fret on one of them. Absolute beast, I'd say he's the best in Essex, never had any issue with his service!</p>
+                        <div class="review-list__testimonial__author">
+                            <h2 class="review-list__testimonial__author--client">Josh Baker</h2>
+                            <h2 class="review-list__testimonial__author--location">Essex - Southend</h2>        
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            
+            </section>
+        </div>
+    </div>
+
+    <section class="landing u-border-top" title="Guitar Background">
+        <div class="landing__text u-container u-text-centre">
+            <img class="landing__logo" src="/static/guitar-logo-1.png" alt="Action Guitars Logo">
+            <p class="paragraph u-margin-medium">For more than 15 years now I have been repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly care about the quality of a service they are providing. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally</p>
+            <a class="button--primary" href="#contact">Contact Us!</a>
+        </div>
+    </section>
+
+    <section class="about u-container">
+
+        <h1 class="heading-primary u-margin-big">About</h1>
+                
+        <p class="paragraph u-margin-big">Based in Leigh-on-Sea, Essex, I&#39;ve spent 15 years repairing fretted instruments for local pickers, recording musicians and clients throughout the UK. I know from personal experience how nerve racking it is to find businesses that truly cares about the quality of service they provide. I can say that my continual effort to perform professional quality repairs has blessed me both personally and professionally.</p>
+            
+        <h2 class="heading-secondary u-margin-medium">Services</h2>
+        <p class="paragraph u-margin-big">Bass guitar setup - Bass guitar repair - Acoustic guitar repair - Guitar repair -  Cracked headstock repair - Broken guitar head repair - Machine head replacement - Guitar knob replacement  - Selector switch replacement - Pickup selector replacement - Guitar intonation - Intonation - Strap buttons  - String tree fitting - Stringing service  - Block replacement  - Strat block replacement  - Amp repair - Restringing</p>
+        
+        <h2 class="heading-secondary u-margin-medium">Serving Areas</h2>
+        <p class="paragraph">Southend - Rayeligh - Leigh on sea - Basildon - Canvey Island - Hockely - Essex</p>
+                 
+    </section>
+                    
+
+    <div class="u-color-contact u-border-top">
+        <div class="u-container">
+            <section id="contact" class="section-contact">
+                    <h2 class="heading-secondary--type-1 u-margin-medium u-text-left">Contact Us</h2>
+                    <form class="contact-form" action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSfD8FRpuK1Ze0pZV8Cynph9tRvy_k7MGLN8h955m1u8R0qyqQ/formResponse">
+                        <div class="row">
+                            <div class="col-1-of-2">
+                                <input name="entry.2005620554" placeholder="Name" class="contact-form__input">
+                            </div>
+                            <div class="col-1-of-2">
+                                <input name="entry.1045781291" placeholder="Email Address" class="contact-form__input">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input name="entry.1166974658" placeholder="Phone Number" class="contact-form__input">
+                        </div>
+
+
+                        <div class="row">
+                            <input name="entry.839337160" placeholder="Message" class="contact-form__input contact-form__input--message u-margin-">
+
+                        </div>
+                            
+                            <button class="button--submit" type="submit">Get A Quote</button>
+                    </form> 
+                    
+            </section>
+            <iframe class="section-contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19842.687274221313!2d0.6252344026941561!3d51.56207530708491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8dbc9348e19d9%3A0x3b23c8ce5e6e46cf!2sThe+Fairway%2C+Southend-on-Sea%2C+Leigh-on-Sea!5e0!3m2!1sen!2suk!4v1557477503358!5m2!1sen!2suk" allowfullscreen=""></iframe>
+            
+        
+        </div>
+    </div>
+    <footer class="footer u-border-top">
+        <div class="u-container">
+            <div class="u-no-margin row footer__nav">
+                <div class="col-1-of-6"><a href="/" class="footer__nav--link">Home</a></div>
+                <div class="col-1-of-6"><a href="/#services" class="footer__nav--link">Services</a></div>
+                <div class="col-1-of-6"><a href="/#testimonials" class="footer__nav--link">Testimonials</a></div>
+                <div class="col-1-of-6"><a href="/project-gallery" class="footer__nav--link">Prices</a></div>
+                <div class="col-1-of-6"><a href="/#about" class="footer__nav--link">About</a></div>
+                <div class="col-1-of-6"><a href="/#contact" class="footer__nav--link">Contact</a></div>
+            </div>
+
+            <div>
+                <p class="footer__author">Designed and developed by <a>Callum Pullinger</a></p>
+            </div>
+        </div>
+
+    </footer>
+
+
+    
+        
+        
+        
+
+<script type="text/javascript">
+    $('.header__toggle').on('click', function () {
+        $('.header__nav').toggle('fast')
+    })
+</script>
+
+    </body>
+
 </html>
