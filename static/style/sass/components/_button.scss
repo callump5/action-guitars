@@ -1,0 +1,19 @@
+.button{
+    &--primary {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem 4rem;
+        background-color: white;
+        color: $header-font;
+        border-radius: 2rem;
+        box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+        transition: all .2s;
+        font-size: 1.7rem;
+        margin: 0 auto;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+}

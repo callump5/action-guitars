@@ -1,0 +1,75 @@
+.landing {
+    background: linear-gradient(to left, rgba(5, 1, 1, 0.7), rgba(0, 0, 0, 0.7)) , url("/static/4k-wallpaper-blur-close-up-1266821.jpg");
+    background-size: cover;
+    border-bottom: 2px solid $offset-color;
+    &__logo {
+        display: block;
+        height: 35rem;
+        margin: 0 auto 2rem auto;
+    }
+}
+
+.service-list{
+    text-align: center;
+    &__card {
+        display: inline-block;
+        background-color: $offset-color;
+        width: 21rem;
+        border-radius: 3px;
+        border-top-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: black 0.1rem 0.1rem .5rem;
+        transition: all .2s;
+        
+
+        &--title {
+            font-size: 2rem;
+            padding: 1.5rem 0;
+            color: #282828;
+        }
+        &--image {
+            border-top-left-radius: 1px;
+            border-top-right-radius: 1px;
+            height: 30rem;
+            width: 21rem;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        &:hover{
+            transform: translateY(-5px);
+        }
+    }
+}
+
+.review-list {
+    &__testimonial {
+        margin-bottom: 2rem;
+        &__author {
+            display: table;
+            clear: both;
+            width: 100%;
+
+            &--client {
+                float: left;
+            }
+            &--location {
+                float: right;
+            }
+        }
+    }
+}
+
+
+.contact {
+    background-color: $offset-color;
+}
+
+.section-contact {
+    position: relative;
+    &__map {
+    position: absolute;
+    width: 50%;
+    }
+}
